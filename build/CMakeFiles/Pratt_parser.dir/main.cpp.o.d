@@ -1,7 +1,7 @@
 CMakeFiles/Pratt_parser.dir/main.cpp.o: \
  /home/tysufa/programmation/pratt_parser/main.cpp \
  /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/stdc-predef.h \
- /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/iostream \
+ /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/string \
  /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/requires_hosted.h \
  /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/x86_64-unknown-linux-gnu/bits/c++config.h \
  /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/x86_64-unknown-linux-gnu/bits/os_defines.h \
@@ -14,11 +14,9 @@ CMakeFiles/Pratt_parser.dir/main.cpp.o: \
  /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/gnu/stubs.h \
  /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/gnu/stubs-64.h \
  /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/x86_64-unknown-linux-gnu/bits/cpu_defines.h \
- /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/ostream \
- /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/ios \
- /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/iosfwd \
  /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/stringfwd.h \
  /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/memoryfwd.h \
+ /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/char_traits.h \
  /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/postypes.h \
  /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/cwchar \
  /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/wchar.h \
@@ -35,25 +33,22 @@ CMakeFiles/Pratt_parser.dir/main.cpp.o: \
  /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/types/FILE.h \
  /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/types/locale_t.h \
  /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/types/__locale_t.h \
- /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/wchar2-decl.h \
- /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/wchar2.h \
- /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/exception \
- /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/exception.h \
- /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/exception_ptr.h \
- /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/exception_defines.h \
- /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/cxxabi_init_exception.h \
- /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/typeinfo \
- /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/hash_bytes.h \
- /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/new \
- /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/move.h \
  /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/type_traits \
- /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/nested_exception.h \
- /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/char_traits.h \
+ /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/allocator.h \
+ /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/x86_64-unknown-linux-gnu/bits/c++allocator.h \
+ /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/new_allocator.h \
+ /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/new \
+ /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/exception.h \
+ /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/functexcept.h \
+ /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/exception_defines.h \
+ /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/move.h \
+ /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/cpp_type_traits.h \
  /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/localefwd.h \
  /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/x86_64-unknown-linux-gnu/bits/c++locale.h \
  /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/clocale \
  /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/locale.h \
  /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/locale.h \
+ /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/iosfwd \
  /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/cctype \
  /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/ctype.h \
  /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/types.h \
@@ -61,45 +56,6 @@ CMakeFiles/Pratt_parser.dir/main.cpp.o: \
  /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/time64.h \
  /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/endian.h \
  /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/endianness.h \
- /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/ios_base.h \
- /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/ext/atomicity.h \
- /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/x86_64-unknown-linux-gnu/bits/gthr.h \
- /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/x86_64-unknown-linux-gnu/bits/gthr-default.h \
- /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/pthread.h \
- /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/sched.h \
- /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/types/time_t.h \
- /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/types/struct_timespec.h \
- /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/sched.h \
- /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/types/struct_sched_param.h \
- /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/cpu-set.h \
- /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/time.h \
- /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/time.h \
- /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/timex.h \
- /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/types/struct_timeval.h \
- /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/types/clock_t.h \
- /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/types/struct_tm.h \
- /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/types/clockid_t.h \
- /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/types/timer_t.h \
- /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/types/struct_itimerspec.h \
- /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/pthreadtypes.h \
- /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/thread-shared-types.h \
- /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/pthreadtypes-arch.h \
- /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/atomic_wide_counter.h \
- /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/struct_mutex.h \
- /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/struct_rwlock.h \
- /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/setjmp.h \
- /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/types/__sigset_t.h \
- /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/types/struct___jmp_buf_tag.h \
- /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/pthread_stack_min-dynamic.h \
- /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/x86_64-unknown-linux-gnu/bits/atomic_word.h \
- /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/sys/single_threaded.h \
- /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/locale_classes.h \
- /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/string \
- /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/allocator.h \
- /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/x86_64-unknown-linux-gnu/bits/c++allocator.h \
- /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/new_allocator.h \
- /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/functexcept.h \
- /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/cpp_type_traits.h \
  /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/ostream_insert.h \
  /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/cxxabi_forced.h \
  /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/stl_iterator_base_funcs.h \
@@ -131,6 +87,10 @@ CMakeFiles/Pratt_parser.dir/main.cpp.o: \
  /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/waitflags.h \
  /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/waitstatus.h \
  /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/sys/types.h \
+ /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/types/clock_t.h \
+ /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/types/clockid_t.h \
+ /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/types/time_t.h \
+ /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/types/timer_t.h \
  /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/stdint-intn.h \
  /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/endian.h \
  /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/byteswap.h \
@@ -138,12 +98,17 @@ CMakeFiles/Pratt_parser.dir/main.cpp.o: \
  /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/sys/select.h \
  /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/select.h \
  /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/types/sigset_t.h \
- /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/select2.h \
- /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/select-decl.h \
+ /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/types/__sigset_t.h \
+ /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/types/struct_timeval.h \
+ /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/types/struct_timespec.h \
+ /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/pthreadtypes.h \
+ /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/thread-shared-types.h \
+ /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/pthreadtypes-arch.h \
+ /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/atomic_wide_counter.h \
+ /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/struct_mutex.h \
+ /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/struct_rwlock.h \
  /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/alloca.h \
- /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/stdlib-bsearch.h \
  /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/stdlib-float.h \
- /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/stdlib.h \
  /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/std_abs.h \
  /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/cstdio \
  /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/stdio.h \
@@ -152,9 +117,6 @@ CMakeFiles/Pratt_parser.dir/main.cpp.o: \
  /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/types/struct_FILE.h \
  /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/types/cookie_io_functions_t.h \
  /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/stdio_lim.h \
- /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/stdio2-decl.h \
- /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/stdio.h \
- /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/stdio2.h \
  /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/cerrno \
  /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/errno.h \
  /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/errno.h \
@@ -165,7 +127,43 @@ CMakeFiles/Pratt_parser.dir/main.cpp.o: \
  /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/types/error_t.h \
  /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/charconv.h \
  /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/functional_hash.h \
+ /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/hash_bytes.h \
  /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/basic_string.tcc \
+ /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/vector \
+ /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/stl_uninitialized.h \
+ /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/stl_vector.h \
+ /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/stl_bvector.h \
+ /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/vector.tcc \
+ /home/tysufa/programmation/pratt_parser/parser.hh \
+ /home/tysufa/programmation/pratt_parser/lexer.hh \
+ /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/iostream \
+ /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/ostream \
+ /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/ios \
+ /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/exception \
+ /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/exception_ptr.h \
+ /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/cxxabi_init_exception.h \
+ /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/typeinfo \
+ /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/nested_exception.h \
+ /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/ios_base.h \
+ /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/ext/atomicity.h \
+ /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/x86_64-unknown-linux-gnu/bits/gthr.h \
+ /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/x86_64-unknown-linux-gnu/bits/gthr-default.h \
+ /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/pthread.h \
+ /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/sched.h \
+ /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/sched.h \
+ /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/types/struct_sched_param.h \
+ /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/cpu-set.h \
+ /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/time.h \
+ /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/time.h \
+ /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/timex.h \
+ /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/types/struct_tm.h \
+ /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/types/struct_itimerspec.h \
+ /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/setjmp.h \
+ /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/types/struct___jmp_buf_tag.h \
+ /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/bits/pthread_stack_min-dynamic.h \
+ /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/x86_64-unknown-linux-gnu/bits/atomic_word.h \
+ /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/sys/single_threaded.h \
+ /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/locale_classes.h \
  /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/locale_classes.tcc \
  /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/system_error \
  /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/x86_64-unknown-linux-gnu/bits/error_constants.h \
@@ -184,10 +182,4 @@ CMakeFiles/Pratt_parser.dir/main.cpp.o: \
  /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/basic_ios.tcc \
  /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/ostream.tcc \
  /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/istream \
- /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/istream.tcc \
- /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/vector \
- /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/stl_uninitialized.h \
- /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/stl_vector.h \
- /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/stl_bvector.h \
- /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/vector.tcc \
- /home/tysufa/programmation/pratt_parser/lexer.hh
+ /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/istream.tcc

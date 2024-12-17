@@ -1,7 +1,6 @@
-#include <iostream>
 #include <string>
 #include <vector>
-#include "lexer.hh"
+#include "parser.hh"
 
 
 
@@ -85,15 +84,10 @@ std::vector<Token> tokenizer(std::string s){
 int main(){
   std::vector<Token> tokens = tokenizer("-(1+2)*2+(-3-5)");
   int curToken = 0;
-  Lexer test("(13-4) * 657");
-  Token t;
-  t = test.getToken();
-  while (t.type != TokenType::END){
-    t.printTok();
-    t = test.getToken();
-  }
-  
+  Lexer lexer("1 + 2 * 3");
+  Parser parser(lexer);
 
+  std::cout << parser.prattParserV1(0) << std::endl;;
   /*std::cout << pratt_parser(0, tokens, curToken) << std::endl;*/
 
   return 0;

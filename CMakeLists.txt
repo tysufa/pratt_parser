@@ -5,4 +5,4 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 project(Pratt_parser)
 
-add_executable(Pratt_parser main.cpp lexer.hh lexer.cc)
+add_executable(Pratt_parser main.cpp lexer.hh lexer.cc parser.cc)

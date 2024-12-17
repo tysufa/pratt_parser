@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Pratt_parser.dir/lexer.cc.o.d"
   "CMakeFiles/Pratt_parser.dir/main.cpp.o"
   "CMakeFiles/Pratt_parser.dir/main.cpp.o.d"
+  "CMakeFiles/Pratt_parser.dir/parser.cc.o"
+  "CMakeFiles/Pratt_parser.dir/parser.cc.o.d"
   "Pratt_parser"
   "Pratt_parser.pdb"
 )

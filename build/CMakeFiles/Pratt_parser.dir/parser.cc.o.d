@@ -1,6 +1,7 @@
-CMakeFiles/Pratt_parser.dir/lexer.cc.o: \
- /home/tysufa/programmation/pratt_parser/lexer.cc \
+CMakeFiles/Pratt_parser.dir/parser.cc.o: \
+ /home/tysufa/programmation/pratt_parser/parser.cc \
  /nix/store/n15bxkd7id2gvlwpihm4kp675aqkrwmj-glibc-2.40-36-dev/include/stdc-predef.h \
+ /home/tysufa/programmation/pratt_parser/parser.hh \
  /home/tysufa/programmation/pratt_parser/lexer.hh \
  /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/string \
  /nix/store/0vsyw5bhwmisszyfd1a0sdnwvnf4qa5a-gcc-13.3.0/include/c++/13.3.0/bits/requires_hosted.h \
