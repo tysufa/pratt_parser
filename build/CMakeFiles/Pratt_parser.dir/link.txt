@@ -1,1 +1,0 @@
-/nix/store/vh9fsdhgxcnab2qk7vdp2palkkn6j3cp-gcc-wrapper-13.3.0/bin/g++ CMakeFiles/Pratt_parser.dir/main.cpp.o CMakeFiles/Pratt_parser.dir/lexer.cc.o CMakeFiles/Pratt_parser.dir/parser.cc.o -o Pratt_parser

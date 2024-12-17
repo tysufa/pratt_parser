@@ -1,3 +1,0 @@
-/home/tysufa/programmation/pratt_parser/build/CMakeFiles/Pratt_parser.dir
-/home/tysufa/programmation/pratt_parser/build/CMakeFiles/edit_cache.dir
-/home/tysufa/programmation/pratt_parser/build/CMakeFiles/rebuild_cache.dir
