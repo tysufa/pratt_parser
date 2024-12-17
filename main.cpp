@@ -1,13 +1,9 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include "lexer.hh"
 
-enum class TokenType {NUMBER, MINUS, PLUS, STAR, SLASH, LPAR, RPAR};
 
-struct Token{
-  TokenType t;
-  std::string value;
-};
 
 std::vector<Token> tokenizer(std::string s){
   std::vector<Token> res;
@@ -41,56 +37,64 @@ std::vector<Token> tokenizer(std::string s){
 /**/
 /*}*/
 
-int precedence(Token t){
-  if (t.t == TokenType::PLUS || t.t == TokenType::MINUS){
-    return 2;
-  } else if (t.t == TokenType::STAR || t.t == TokenType::SLASH){
-    return 3;
-  } else if (t.t == TokenType::LPAR || t.t == TokenType::RPAR){
-    return 1;
-  } else{
-    return 0;
-  }
-}
+/*int precedence(Token t){*/
+/*  if (t.t == TokenType::PLUS || t.t == TokenType::MINUS){*/
+/*    return 2;*/
+/*  } else if (t.t == TokenType::STAR || t.t == TokenType::SLASH){*/
+/*    return 3;*/
+/*  } else if (t.t == TokenType::LPAR || t.t == TokenType::RPAR){*/
+/*    return 1;*/
+/*  } else{*/
+/*    return 0;*/
+/*  }*/
+/*}*/
 
-std::string pratt_parser(int precLimit, std::vector<Token> tokens, int &curTok){
-  std::string left = tokens[curTok].value;
-  Token tok = tokens[curTok];
-  if (tok.t == TokenType::MINUS){
-    curTok++;
-    std::string right = pratt_parser(10, tokens, curTok);
-    left = "(" + left + right + ")";
-  } else if (tok.t == TokenType::LPAR){
-    curTok++;
-    left = pratt_parser(precedence(tok), tokens, curTok);
-    curTok++; // consomme le token ), (on admet que les expressions sont bien parenthésées)
-  } else {
-    curTok++;
-  }
-
-  while(curTok < tokens.size()){
-    Token tok = tokens[curTok];
-    if (tok.t != TokenType::PLUS && tok.t != TokenType::MINUS && tok.t != TokenType::STAR && tok.t != TokenType::SLASH){
-      return left;
-    }
-    int prec = precedence(tok);
-    std::cout << prec << " " << precLimit << std::endl;
-    if (prec > precLimit){
-      curTok++;
-      std::string right = pratt_parser(prec, tokens, curTok);
-      left = "(" +left + tok.value + right + ")";
-    } else {
-      return left;
-    }
-  }
-  return left;
-}
+/*std::string pratt_parser(int precLimit, std::vector<Token> tokens, int &curTok){*/
+/*  std::string left = tokens[curTok].value;*/
+/*  Token tok = tokens[curTok];*/
+/*  if (tok.t == TokenType::MINUS){*/
+/*    curTok++;*/
+/*    std::string right = pratt_parser(10, tokens, curTok);*/
+/*    left = "(" + left + right + ")";*/
+/*  } else if (tok.t == TokenType::LPAR){*/
+/*    curTok++;*/
+/*    left = pratt_parser(precedence(tok), tokens, curTok);*/
+/*    curTok++; // consomme le token ), (on admet que les expressions sont bien parenthésées)*/
+/*  } else {*/
+/*    curTok++;*/
+/*  }*/
+/**/
+/*  while(curTok < tokens.size()){*/
+/*    Token tok = tokens[curTok];*/
+/*    if (tok.t != TokenType::PLUS && tok.t != TokenType::MINUS && tok.t != TokenType::STAR && tok.t != TokenType::SLASH){*/
+/*      return left;*/
+/*    }*/
+/*    int prec = precedence(tok);*/
+/*    std::cout << prec << " " << precLimit << std::endl;*/
+/*    if (prec > precLimit){*/
+/*      curTok++;*/
+/*      std::string right = pratt_parser(prec, tokens, curTok);*/
+/*      left = "(" +left + tok.value + right + ")";*/
+/*    } else {*/
+/*      return left;*/
+/*    }*/
+/*  }*/
+/*  return left;*/
+/*}*/
 
 int main(){
   std::vector<Token> tokens = tokenizer("-(1+2)*2+(-3-5)");
   int curToken = 0;
+  Lexer test("(13-4) * 657");
+  Token t;
+  t = test.getToken();
+  while (t.type != TokenType::END){
+    t.printTok();
+    t = test.getToken();
+  }
+  
 
-  std::cout << pratt_parser(0, tokens, curToken) << std::endl;
+  /*std::cout << pratt_parser(0, tokens, curToken) << std::endl;*/
 
   return 0;
 }
