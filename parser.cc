@@ -1,7 +1,7 @@
 #include "parser.hh"
 #include "lexer.hh"
 
-int precedence(Token t){
+int Parser::precedence(Token t){
   if (t.type == TokenType::PLUS || t.type == TokenType::MINUS){
     return 2;
   } else if (t.type == TokenType::STAR || t.type == TokenType::SLASH){
@@ -13,13 +13,34 @@ int precedence(Token t){
   }
 }
 
+std::string Parser::parsePrefix(){
+  std::string res = "";
+  if (_curTok.type == TokenType::MINUS){
+    res = "(" + _curTok.value;
+    nextToken();
+    res += prattParser(10) + ")";
+    
+  } else if (_curTok.type == TokenType::NUMBER){
+    res = _curTok.value; 
+    nextToken();
+  } else if (_curTok.type == TokenType::LPAR){
+    int prec = precedence(_curTok);
+    nextToken();
+    res = prattParser(prec);
+    nextToken();
+  } else {
+    throw(_curTok.type);
+  }
 
-std::string Parser::prattParserV1(int precedenceLimit){
-  std::string left = _curTok.value;
-  nextToken();
+  return res;
+}
+
+std::string Parser::prattParser(int precedenceLimit){
+  std::string left = parsePrefix();
 
   while (_curTok.type != TokenType::END && _curTok.type != TokenType::ILLEGAL){
-    if (_curTok.type != TokenType::PLUS && _curTok.type != TokenType::STAR && _curTok.type != TokenType::MINUS && _curTok.type != TokenType::SLASH){
+
+    if (!isOperator(_curTok)){
       return left;
     }
 
@@ -28,12 +49,11 @@ std::string Parser::prattParserV1(int precedenceLimit){
     if (prec > precedenceLimit){
       std::string op = _curTok.value;
       nextToken();
-      std::string right = prattParserV1(prec);
+      std::string right = prattParser(prec);
       left = "(" + left + op + right + ")";
     } else {
       return left;
     }
-    
   }
 
   return left;

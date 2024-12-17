@@ -2,7 +2,6 @@
 #include "lexer.hh"
 
 
-int precedence(Token t);
 
 class Parser{
 public:
@@ -17,12 +16,16 @@ public:
     _peekTok = _lexer.getToken();
   }
 
-  std::string prattParserV1(int precedence);
-  
-  private:
-    Lexer _lexer;
-    Token _curTok;
-    Token _peekTok;
+  std::string parsePrefix();
+  std::string prattParser(int precedence);
+
+private:
+  Lexer _lexer;
+  Token _curTok;
+  Token _peekTok;
+
+  int precedence(Token t);
+  bool isOperator(Token t) { return !(_curTok.type != TokenType::PLUS && _curTok.type != TokenType::STAR && _curTok.type != TokenType::MINUS && _curTok.type != TokenType::SLASH);};
 };
 
 
