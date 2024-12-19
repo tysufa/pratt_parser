@@ -1,10 +1,19 @@
 #include "parser.hh"
+#include <string>
 
-int main(){
-  Lexer lexer("(-1+2)*(3-4)/5");
-  Parser parser(lexer);
+int main(int argc, char *argv[]){
+  std::string input = "";
 
-  std::cout << parser.prattParser(0) << std::endl;;
+  while (true){
+    std::cout << "> ";
+    std::getline(std::cin, input);
+
+    Lexer lexer(input);
+    Parser parser(lexer);
+
+    std::cout << parser.prattParser(0) << std::endl;;
+  }
+ 
 
   return 0;
 }
